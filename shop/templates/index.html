@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="content-root">
+        <ul class="categories-list">
+            {% if categories_list %}
+                {% for i in categories_list %}
+                    <li><a href="{% url 'shop:category_filter' i %}">{{i}}</a></li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        
+        {% if items_list %}
+                <div class="all-items">
+                	{% for i in items_list %}
+                		<div class="block-item">
+    	            		<img src="{{ MEDIA_URL }}{{ i.image.url }}">
+    	            		<h6><a href="{% url 'home:detail' i.id %}" class="label label-primary">{{i.name}}</a></h6>
+                		</div>
+                	{% endfor %}
+                </div>
+
+        {% else %}
+            <h5 style="padding-left: 270px">No items found</h5>
+        {% endif %}
+    </div>
+{% endblock content %}
