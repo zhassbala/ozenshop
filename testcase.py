@@ -79,16 +79,57 @@
 # print('{:.2F}'.format(time.time()-start))
 
 
-class Car:
-    __vehicle = 'VX650'
-    brand = 'Toyota'
-    def __init__(self, brand='Toyota', model="Hilux", year=2016):
-        print(f'Car object is created! {brand} {model} of {year}')
+# print(type(1151))
+# print(type('^&*^#(*lfvjnfk'))
+# print(type(1.02))
+# print(type(True))
+# print(type(False))
 
-    def __place(self):
-        return('Place method!')
+# choose = input('Выбери своего чемпиона: '
+#                '\n1. Рыцарь '
+#                '\n2. Маг '
+#                '\n3. Целитель '
+#                '\n4. Стрелок\n')
+#
+# if choose == '1':
+#     print('Ты выбрал Рыцаря!')
+# elif choose == '2':
+#     print('Ты выбрал Мага!')
+# elif choose == '3':
+#     print('Ты выбрал Целителя!')
+# elif choose == '4':
+#     print('Ты выбрал Стрелка!')
+#     print('testcase code')
+#     print('hello world')
+#     a = int(input())
+#     b = int(input())
+#     print(a+b)
+# else:
+#     print('Неправильный выбор!')
+
+# statement = input('Do you have a baton? ')
+#
+# if statement == 'yes':
+#     print('Baton kuplen!')
+#
+# elif statement == 'no':
+#
+#     statement = input('Do you have a bread? ')
+#
+#     if statement == 'yes':
+#         print('Hleb kuplen!')
+#
+#     else:
+#         print('Nichego ne kupleno')
 
 
-hilux = Car()
-print(hilux.brand)
-print(hilux.__place())
+''' >, <, >= ,<= , == '''
+
+# print(5 <= 5)
+
+
+''' тип данных bool - True, False
+    операторы - >, <, >=, <=, ==
+    if *statement1* - elif *statement2* - else
+'''
+
