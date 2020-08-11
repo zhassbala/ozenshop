@@ -133,3 +133,11 @@
     if *statement1* - elif *statement2* - else
 '''
 
+x = int(input())
+
+if x > 0:
+	print('a')
+elif x < 0:
+	print('b')
+else:
+	print('c')
