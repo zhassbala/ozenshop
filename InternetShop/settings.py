@@ -75,18 +75,18 @@ WSGI_APPLICATION = 'InternetShop.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'OZEN SHOP DB',
-        'USER': 'zhassbala',
-        'PASSWORD': 'surprisemotherfucker0202',
-        'HOST': 'localhost',
-        'PORT': '8080',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'OZEN SHOP DB',
+    #     'USER': 'zhassbala',
+    #     'PASSWORD': 'surprisemotherfucker0202',
+    #     'HOST': 'localhost',
+    #     'PORT': '8080',
+    # }
 }
 
 
